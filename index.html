@@ -5,18 +5,42 @@
           <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
           <meta http-equiv="X-UA-Compatible" content="ie=edge">
           <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="phone.css" media="screen and (max-width:780px)">
           <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
     </head>
    
   
     <body>
+      <header id="top-head">
+        <div class="inner">
+            <div id="mobile-head">
+                <h1 class="logo">Logo</h1>
+                <div id="nav-toggle">
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <nav id="global-nav">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PRODUCT</a></li>
+                    <li><a href="#">WORKS</a></li>
+                    <li><a href="#">COMPANY</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
  
     <div class="main-visual">
-      <img src="https://miharu828.github.io/dentist/okumoto main5.png">
+      <img id="mainvisual.jpg" src="images/okumoto main5.png">
       <div class="container">
         <a href="#" class="btn-border">ネットから予約する</a>
         <p>電話予約はこちらから</p>
-       <span id="tel">042-093-8320</span>
+        <img src="images/denwa.svg"><span id="tel">042-093-8320</span>
       </div>
     </div>
 
@@ -31,11 +55,11 @@
       </ul>
 
       <div class="menu-img">
-        <img src="https://miharu828.github.io/dentist/home.svg">
-        <img src="https://miharu828.github.io/dentist/about.svg">
-        <img src="https://miharu828.github.io/dentist/schedule.svg">
-        <img src="https://miharu828.github.io/dentist/stuff.svg">
-        <img src="https://miharu828.github.io/dentist/blog.svg">
+        <img src="images/home.svg">
+        <img src="images/about.svg">
+        <img src="images/schedule.svg">
+        <img src="images/stuff.svg">
+        <img src="images/blog.svg">
        </div>
     </div>
 
@@ -45,9 +69,9 @@
     <div class="title-point"><span class="under">嬉しい３ポイント</span></div>
     
     <div class="points">
-        <img src="https://miharu828.github.io/dentist/3point1.jpg">
-        <img src="https://miharu828.github.io/dentist/3point2.jpg">
-        <img src="https://miharu828.github.io/dentist/3point3.jpg">
+        <img src="images/3point1.jpg">
+        <img src="images/3point2.jpg">
+        <img src="images/3point3.jpg">
     </div>
 
     
@@ -60,7 +84,7 @@
     
     <div class="schedule">
         <p><span class="under">診療時間</span></p>
-        <img id="schedule.jpg" src="https://miharu828.github.io/dentist/schedule1.jpg"></div>
+        <img id="schedule.jpg" src="images/schedule1.jpg"></div>
         
         <div class="time">
             <span id="closing">木曜休診</span>
@@ -80,7 +104,7 @@
           審美（見た目の美しさ）的な側面からも持てる全ての技術をフルに生かしてあなたのお口を守っていきます。
            地域に根ざした医院であるべく、心のこもった丁寧な治療、応接を心掛けてまいります。 <br><span id="sign">院長　奥本忠行</span>
         </p>
-        <img src="https://miharu828.github.io/dentist/doctorrr.png">
+        <img src="images/doctorrr.png">
       </div>
        
   
@@ -89,10 +113,9 @@
 <div class="stuff">
 
   <h3><span class="under">スタッフブログ</span></h3>
-
   <div class="card-container">
     <div class="upper">
-      <img src="https://miharu828.github.io/dentist/blushes.jpg">
+      <img src="images/blushes.jpg">
     </div>
       <div class="lower">
         <h1 class="category">歯ブラシ交換のタイミング</h1>
@@ -106,7 +129,7 @@
 
   <div class="card-container">
     <div class="upper">
-      <img src="https://miharu828.github.io/dentist/woman-mask.jpg">
+      <img src="images/woman-mask.jpg">
     </div>
       <div class="lower">
         <h1 class="category"> コロナウィルス予防について</h1>
@@ -117,7 +140,7 @@
 
   <div class="card-container">
     <div class="upper">
-      <img src="https://miharu828.github.io/dentist/kids-blush.jpg">
+      <img src="images/kids-blush.jpg">
     </div>
       <div class="lower">
         <h1 class="category"> 小学生はみがき会を開催！</h1>
@@ -132,7 +155,7 @@
 
 <div class="boxes">
 <div class="news">
-    <img src="https://miharu828.github.io/dentist/bg.jpg">
+    <img src="images/bg.jpg">
     <p><span class="news-title">クリニックからのお知らせ</span><br>
     <span class="date">2020.3.1</span><br>
     ・新型コロナウイルス予防について<br>
@@ -146,21 +169,41 @@
 </div>
 </div>
 
-<div class="boxes"><img src="https://miharu828.github.io/dentist/facebook.jpg"></div>
-</body>
-</html>
+<div class="boxes"><img src="images/facebook.jpg"></div>
+
 
 <div class="final-box">
-    <img src="https://miharu828.github.io/logo.jpg">
+    <img src="images/logo.jpg">
     <p><span class="small">〒359-1144</span><br> 埼玉県所沢市西所沢１丁目２３−３</p>
     <p><span class="small">受付時間 9:00 ~ 19:00</span><br>
     042-093-8320</p>
 </div>
 
 <div class="final-box">
-    <img src="https://miharu828.github.io/dentist/access1.jpg">
+    <img src="images/access1.jpg">
 </div>
 
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script>
+(function($) {
+    $(function() {
+        var $header = $('#top-head');
+        // Nav Fixed
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 350) {
+                $header.addClass('fixed');
+            } else {
+                $header.removeClass('fixed');
+            }
+        });
+        // Nav Toggle Button
+        $('#nav-toggle').click(function(){
+            $header.toggleClass('open');
+        });
+    });
+})(jQuery);
+</script>
+</body>
+</html>
 <footer>
 </footer>
