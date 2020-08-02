@@ -1,32 +1,137 @@
 @charset "utf-8";
-
-body{
-	font-family: 'Kosugi Maru', sans-serif;
-	
-	margin-top: 0;
-	font-family: "FOT-筑紫A丸ゴシック Std";
+.inner {
+    width: 980px;
+    margin: 0 auto;
 }
-
-
-#nav {
-  list-style: none;
-  overflow: hidden;
-  position: absolute;
-  top:-25px;
-  left:190px;
+.inner:after {
+    content: "";
+    clear: both;
+    display: block;
 }
  
+/* header */
+#top-head {
+    top: -100px;
+    position: absolute;
+    width: 100%;
+    margin: 100px auto 0;
+    padding: 30px 0 0;
+    line-height: 1;
+    z-index: 999;
+}
+#top-head a,
+#top-head {
+    color: #fff;
+    text-decoration: none;
+}
+#top-head .inner {
+    position: relative;
+}
+#top-head .logo {
+    float: left;
+    font-size: 36px;
+}
+#global-nav ul {
+    list-style: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 14px;
+}
+#global-nav ul li {
+    float: left;
+}
+#global-nav ul li a {
+    padding: 0 30px;
+}
+ 
+/* Fixed */
+#top-head.fixed {
+    margin-top: 0;
+    top: 0;
+    position: fixed;
+    padding-top: 10px;
+    height: 55px;
+    background: #fff;
+    background: rgba(255,255,255,.7);
+    transition: top 0.65s ease-in;
+    -webkit-transition: top 0.65s ease-in;
+    -moz-transition: top 0.65s ease-in;
+}
+#top-head.fixed .logo {
+    font-size: 24px;
+    color: #333;
+}
+#top-head.fixed #global-nav ul li a {
+    color: #333;
+    padding: 0 20px;
+}
+ 
+/* Toggle Button */
+#nav-toggle {
+    display: none;
+    position: absolute;
+    right: 12px;
+    top: 14px;
+    width: 34px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 101;
+}
+#nav-toggle div {
+    position: relative;
+}
+#nav-toggle span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #666;
+    left: 0;
+    -webkit-transition: .35s ease-in-out;
+    -moz-transition: .35s ease-in-out;
+    transition: .35s ease-in-out;
+}
+#nav-toggle span:nth-child(1) {
+    top: 0;
+}
+#nav-toggle span:nth-child(2) {
+    top: 11px;
+}
+#nav-toggle span:nth-child(3) {
+    top: 22px;
+}
+#top-head{
+	display: none;
+}
+
+.container {
+    position: absolute;
+    top: 40vh;
+    left: 65vw;
+    text-align: center;
+    padding-top: 40px;
+}
+#nav {
+    list-style: none;
+    overflow: hidden;
+    position: absolute;
+    top: -4vh;
+	left: 20%;
+	width:100vw;
+    
+}
 #nav li {
-  width: 180px;
-  text-align: center;
-  float: left;
+    width: 12.8vw;
+    text-align: center;
+    float: left;
 }
  
 #nav li a {
   text-decoration: none;
   color: rgb(49, 166, 235);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.3vw;
 }
 
 	 
@@ -97,59 +202,63 @@ line-height: 15px;
 			border-color: #ffff00;
 			color: #FFF;
 		  }
-.menu{
-	position: relative;
-	top:11px;
-	margin-top: 10px;
+
+
+
+.menu {
+    position: relative;
+	top: 4vh;
+	left:2vw;
+	width:100vh;
+    
 }
 
-.menu-img{
-	position: absolute;
-	top:32px;
-	left:295px;
+	
+.menu-img {
+    position: absolute;
+    top: 6vh;
+    width: 100vw;
+    left: 35%;
 }
+
 .menu-img img{
-width:48px;
-margin-right: 135px;
-}
+		width: 4vw;
+		margin-right: 9vw;
+	}
 
 .menu-img img:nth-child(2){
-	width: 37px;
-	height:47px;
+	width: 3vw;
+	
 	
 }
 
 .menu-img img:nth-child(3){
-	width: 42px;
+	width: 3vw;
 	
 }
 
 
-.menu-img img:first-child{
-	width: 43px;
-	
-}
 
 
-.pick-up{
-	background-color:rgb(49, 166, 235);
-	box-shadow: 0px 18px 57px 0px rgba(255, 255, 255, 0.65),inset 0px 8px 18px 0px rgba(1, 1, 1, 0.17);
-	border-radius: 30px;
-	height: 28px;
-	width: 840px;
-	font-size: 17px;
-	font-family: "BIZ UDPGothic";
-	color: rgb(255, 255, 255);
-	font-weight: bold;
-	line-height: 1.238;
-	text-align:center;
-	padding-top: 12px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 150px;
+
+.pick-up {
+    background-color: rgb(49, 166, 235);
+    box-shadow: 0px 18px 57px 0px rgba(255, 255, 255, 0.65), inset 0px 8px 18px 0px rgba(1, 1, 1, 0.17);
+    border-radius: 30px;
+    height: 5vh;
+    width: 60vw;
+    font-size: 1.4vw;
+    font-family: "BIZ UDPGothic";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.238;
     text-align: center;
-} 
-
+    padding-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30vh;
+    text-align: center;
+}
 
 .title-point{
 	text-align: center;
@@ -299,17 +408,19 @@ margin-left: 100px;
 	padding-right: 70px;
 }
 
-.card-container {
-	position: relative;
-	width: 250px;
-	border-radius: 10px;
-	margin: 30px auto;
-	box-shadow: 0px 5px 15px #ebebeb;
-	background-clip: border-box;
-	float: left;
-	margin-left: 100px;
 
-  }
+.card-container {
+    position: relative;
+    width: 20vw;
+    border-radius: 10px;
+    /* margin: 30px auto; */
+    box-shadow: 0px 5px 15px #ebebeb;
+    background-clip: border-box;
+    float: left;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+	
   .upper {
 	height: 200px;
 	background-color: rgb(61, 165, 234);
@@ -323,7 +434,9 @@ margin-left: 100px;
 
 
   .upper img {
-	margin-top: 35px;
+		margin-top: 13%;
+		width: 16vw;
+	}
   }
   .lower {
 	height: 150px;
@@ -437,4 +550,10 @@ pathに対してfillのため「a:hover」のみでは動作しない*/
 /* svgのアイコンにhoverが当たったら 塗りを#2BBF82にする。*/
 .home-icon a:hover path{
     fill:#2BBF82;
+}
+
+body{
+	font-family: 'Kosugi Maru', sans-serif;
+	margin:0;
+	font-family: "FOT-筑紫A丸ゴシック Std";
 }
