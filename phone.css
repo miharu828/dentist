@@ -1,0 +1,372 @@
+.points-text {
+    width: 250px;
+    height: 155.8px;
+    font-size: 17px;
+    line-height: 1.3;
+    color: #717070;
+    display: inline-block;
+    text-align: center;
+    margin-left: 38px;
+    margin-bottom: 50%;
+}
+
+
+.points-text-box {
+    text-align: center;
+    /* margin-top: -645px; */
+    /* margin-left: 0px; */
+    position: absolute;
+    top: 144%;
+}
+
+.points img {
+    margin-top: 35px;
+    width: 190px;
+    height: 189px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-bottom: 30%;
+}
+
+.pick-up {
+    padding-right: 2%;
+    background-color: rgb(49, 166, 235);
+    box-shadow: 0px 18px 57px 0px rgba(255, 255, 255, 0.65), inset 0px 8px 18px 0px rgba(1, 1, 1, 0.17);
+    border-radius: 30px;
+    height: 5.6vh;
+    width: 86vw;
+    font-size: 4vw;
+    font-family: "BIZ UDPGothic";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.238;
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7vh;
+    text-align: center;
+}
+
+menu {
+    position: relative;
+    top: 2vh;
+    left: 2vw;
+    width: 100vw;
+}
+
+.menu-img {
+    position: absolute;
+    top: 2.5vh;
+    width: 100vw;
+    left: 16%;
+}
+
+
+#nav li {
+    width: 50vw;
+    text-align: center;
+    float: left;
+    margin-bottom: 10%;
+}
+
+
+menu-img img {
+    width: 7vw;
+    margin-right: 40vw;
+    margin-bottom: 4vh;
+    margin-top: 1vh;
+}
+
+.menu-img img:nth-child(2) {
+    padding-left: 2vw;
+    width: 5vw;
+}
+
+
+.menu-img img:nth-child(3) {
+    width: 7vw;
+}
+
+.main-visual img {
+        width: 209%;
+        height: 60vh;
+        object-position: 23%;
+        object-fit: cover;
+        margin-top: 8vh;
+}
+
+.message img {
+  display:none;
+}
+
+
+.btn-border {
+    position: absolute;
+    top: 53vh;
+    right: 179vw;
+    width: 80vw;
+    display: inline-block;
+    /* max-width: 250px; */
+    text-align: center;
+    border: 4px solid #6abfea;
+    font-size: 6vw;
+    color: rgb(49, 166, 235);
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1vh 9vw;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+
+.schedule img {
+    width: 90vw;
+}
+
+
+.time {
+    text-align: center;
+    color: #717070;
+    font-size: 3.2vw;
+    font-family: "BIZ UDPGothic";
+    margin-top: 2vh;
+}
+
+.schedule {
+    clear: both;
+    text-align: center;
+    color: rgb(61, 165, 234);
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 3px;
+    margin-top: 13vh;
+}
+
+#time-g {
+    font-size: 4vw;
+    color: rgb(49, 166, 235);
+    font-weight: bold;
+    text-align: center;
+}
+
+span#closing {
+    font-family: "BIZ UDPGothic";
+    color: white;
+    font-size: 4vw;
+    background-color: rgb(49, 166, 235);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+
+.doc-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(49, 166, 235);
+    margin-top: 11vh;
+    margin-bottom: -5vh;
+}
+
+
+.message {
+    background-color: rgb(49, 166, 235);
+    text-align: center;
+    margin: 12vh auto;
+    position: relative;
+    border-radius: 20px;
+}
+
+.message p {
+    padding: 4% 4%;
+    font-size: 5vw;
+    line-height: 1.6em;
+    color: white;
+    width: 90vw;
+}
+
+
+.stuff h3 {
+   
+    text-align: center;
+    font-size: 4vh;
+    width: 90vw;
+    font-weight: bold;
+    color: rgb(49, 166, 235);
+}
+
+.upper img {
+    margin-top: 8%;
+    width: 58vw;
+}
+
+.stuff {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+
+
+
+.card-container {
+    position: relative;
+    width: 70vw;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px #ebebeb;
+    background-clip: border-box;
+    float: left;
+margin-left: 12vw;
+    margin-bottom: 5vh;
+  
+}
+
+
+.news {
+    margin-left: 0;
+    position: relative;
+    width: 100vw;}
+
+.news img{
+width:100vw;
+height:30vh;}
+
+
+.boxes img{
+width:100vw;}
+
+
+
+.final-box {
+    display: inline-block;
+    margin-left: 13vw;
+    margin-top: 10vh;
+    color: rgb(61, 165, 234);
+    font-size: 4vw;
+    font-weight: bold;
+    line-height: 1.4em;
+    letter-spacing: 2px;
+}
+
+.final-box img{
+width:90vw;
+margin-left:-10vw;}
+
+
+
+.title-point {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(49, 166, 235);
+    padding-right: 70px;
+    margin-top: 20vh;
+    margin-left: 8vh;
+}
+
+
+.message {
+    height: 51vh;
+    background-color: rgb(49, 166, 235);
+    text-align: center;
+    margin: 12vh auto;
+    position: relative;
+    border-radius: 20px;
+    width: 100vw;
+}
+
+
+    #top-head,
+    .inner {
+        width: 100%;
+        padding: 0;
+    }
+    #top-head {
+        display:flex;
+        top: 0;
+        position: fixed;
+        margin-top: 0;
+    }
+    /* Fixed reset */
+    #top-head.fixed {
+        padding-top: 0;
+        background: transparent;
+    }
+    #mobile-head {
+        background:rgb(61, 165, 234);
+        width: 100%;
+        height: 10vh;
+        z-index: 999;
+        position: relative;
+    }
+    #top-head.fixed .logo, #top-head .logo {
+        position: absolute;
+        left: 13px;
+        top: 0px;
+        color: rgb(61, 165, 234);
+        font-size: 26px;
+    } 
+
+    #global-nav {
+        position: absolute;
+        /* 開いてないときは画面外に配置 */
+        top: -500px;
+        background: #333;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+    }
+    #global-nav ul {
+        list-style: none;
+        position: static;
+        right: 0;
+        bottom: 0;
+        font-size: 14px;
+    }
+    #global-nav ul li {
+        float: none;
+        position: static;
+    }
+    #top-head #global-nav ul li a,
+    #top-head.fixed #global-nav ul li a {
+        width: 100%;
+        display: block;
+        color: #fff;
+        padding: 18px 0;
+    }
+    #nav-toggle {
+        display: block;
+    }
+    /* #nav-toggle 切り替えアニメーション */
+    .open #nav-toggle span:nth-child(1) {
+        top: 11px;
+        -webkit-transform: rotate(315deg);
+        -moz-transform: rotate(315deg);
+        transform: rotate(315deg);
+    }
+    .open #nav-toggle span:nth-child(2) {
+        width: 0;
+        left: 50%;
+    }
+    .open #nav-toggle span:nth-child(3) {
+        top: 11px;
+        -webkit-transform: rotate(-315deg);
+        -moz-transform: rotate(-315deg);
+        transform: rotate(-315deg);
+    }
+    /* #global-nav スライドアニメーション */
+    .open #global-nav {
+        /* #global-nav top + #mobile-head height */
+        -moz-transform: translateY(556px);
+        -webkit-transform: translateY(556px);
+        transform: translateY(556px);
+    }
+.menu{
+    display: none;
+}
