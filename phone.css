@@ -1,51 +1,50 @@
 .points-text {
-    width: 250px;
-    height: 155.8px;
+    width: 65vw;
     font-size: 17px;
     line-height: 1.3;
     color: #717070;
     display: inline-block;
     text-align: center;
-    margin-left: 38px;
-    margin-bottom: 50%;
+    margin-bottom: 21vh;
+    margin-top: 3vh;
+    position: relative;
+    top: -14vh;
 }
+
+.points {
+    text-align: center;
+   margin-top: 0px;}
 
 
 .points-text-box {
     text-align: center;
-    /* margin-top: -645px; */
-    /* margin-left: 0px; */
     position: absolute;
-    top: 144%;
+    top: 138%;
 }
-
 .points img {
     margin-top: 35px;
     width: 190px;
     height: 189px;
-    margin-left: 65px;
-    margin-right: 65px;
     margin-bottom: 30%;
 }
+
 
 .pick-up {
     padding-right: 2%;
     background-color: rgb(49, 166, 235);
     box-shadow: 0px 18px 57px 0px rgba(255, 255, 255, 0.65), inset 0px 8px 18px 0px rgba(1, 1, 1, 0.17);
     border-radius: 30px;
-    height: 5.6vh;
-    width: 86vw;
-    font-size: 4vw;
+    width: 71vw;
+    font-size: 3.5vw;
     font-family: "BIZ UDPGothic";
     color: rgb(255, 255, 255);
     font-weight: bold;
-    line-height: 1.238;
+    line-height: 1.4;
     text-align: center;
-    padding-top: 3%;
-    padding-left: 2%;
+    padding: 3%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 7vh;
+    margin-top: 4vh;
     text-align: center;
 }
 
@@ -88,6 +87,13 @@ menu-img img {
 .menu-img img:nth-child(3) {
     width: 7vw;
 }
+.main-visual {
+    text-align: center;
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    background-color:rgb(49, 166, 235);
+}
 
 .main-visual img {
         width: 209%;
@@ -101,26 +107,24 @@ menu-img img {
   display:none;
 }
 
-
 .btn-border {
-    position: absolute;
-    top: 53vh;
-    right: 179vw;
-    width: 80vw;
+    position: relative;
+    top: 23vh;
+    /* right: 259vw; */
+    width: 73vw;
     display: inline-block;
     /* max-width: 250px; */
     text-align: center;
     border: 4px solid #6abfea;
-    font-size: 6vw;
+    font-size: 5vw;
     color: rgb(49, 166, 235);
     background-color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 1vh 9vw;
+    padding: 1vh 0vw;
     border-radius: 10px;
     transition: .4s;
 }
-
 
 .schedule img {
     width: 90vw;
@@ -142,7 +146,7 @@ menu-img img {
     font-weight: bold;
     font-size: 26px;
     letter-spacing: 3px;
-    margin-top: 13vh;
+    margin-top: 3vh;
 }
 
 #time-g {
@@ -209,6 +213,42 @@ span#closing {
 }
 
 
+.title-point {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(49, 166, 235);
+    margin-top: 32vh;
+   
+}
+
+.container {
+    color: rgb(49, 166, 235);
+    position: relative;
+    top: 51vh;
+    left: -1vw;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.container p {
+    padding-top: 20px;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(49, 166, 235);
+    letter-spacing: 0.1em;
+    line-height: 15px;
+}
+
+.container span {
+    font-size: 28px;
+    font-weight: bold;
+   color: rgb(49, 166, 235);
+    letter-spacing: 0.1em;
+    line-height: 0.1px;
+    
+}
 
 
 
